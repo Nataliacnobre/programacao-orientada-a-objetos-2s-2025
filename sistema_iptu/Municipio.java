@@ -5,7 +5,7 @@ public class Municipio {
     private String estado;
     private Double precoM2;
 
-    public Municipio(String nome, String estdao, Double precoM2){
+    public Municipio(String nome, String estado, Double precoM2){
         this.nome = nome;
         this.estado = estado;
         this.precoM2 = precoM2;

@@ -2,18 +2,10 @@ package sistema_iptu;
 
 public class Chacara extends Imovel{
     private Boolean possuiPocoArtesiano;
-   
-    public Double calcularIPTU(){
-            return this.areaM2 * this.municipio.getPrecoM2();    
-    }
 
     public Chacara(Municipio municipio, Double areaM2, Integer vagas, Boolean possuiPocoArtesiano) {
         super(municipio, areaM2, vagas);
         this.possuiPocoArtesiano = possuiPocoArtesiano;
-    }
-
-    public Boolean isPossuiPocoArtesiano() {
-        return this.possuiPocoArtesiano;
     }
 
     public Boolean getPossuiPocoArtesiano() {
@@ -25,4 +17,3 @@ public class Chacara extends Imovel{
     }
 
 }
-
